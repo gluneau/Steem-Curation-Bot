@@ -1,15 +1,17 @@
 {
-  "name": "deep_follow",
+  "name": "Steem Curation Bot",
   "version": "0.0.1",
   "main": "./lib/config.js",
-  "description": "Bot to follow accounts on Steem.",
+  "description": "Bot to curate content on Steem blockchain.",
   "author": "Adam Cox <adam.cox9@gmail.com>",
   "homepage": "http://github.com/AdamCox9",
   "keywords": [
-    "follow",
+    "curate",
     "steem",
     "bot",
-    "steemit"
+    "steemit",
+    "upvote",
+    "blockchain"
   ],
   "directories": {
     "lib": "./lib"
@@ -23,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/AdamCox9/Deep-Follow.git"
+    "url": "git+ssh://git@github.com/AdamCox9/Steem-Curation-Bot.git"
   },
   "engines": {
     "node": ">= 4.0.0"
@@ -32,6 +34,6 @@
     "test": "./node_modules/vows/bin/vows test/*.js --spec"
   },
   "bugs": {
-    "url": "https://github.com/AdamCox9/Deep-Follow/issues"
+    "url": "https://github.com/AdamCox9/Steem-Curation-Bot/issues"
   }
 }
