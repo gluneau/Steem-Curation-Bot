@@ -1,5 +1,5 @@
 {
-  "name": "Steem Curation Bot",
+  "name": "steem-curation-bot",
   "version": "0.0.1",
   "main": "./lib/config.js",
   "description": "Bot to curate content on Steem blockchain.",
