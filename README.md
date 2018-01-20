@@ -23,4 +23,4 @@ Add functionality to upvote comments also.
 
 Upvote, re-steem and comment on this post. Follow my Steem account. Follow, Star, watch, clone, fork, commit, push & pull this GitHub repository/profile.
 
-https://github.com/AdamCox9/Steem-Curation-Bot
+https://steemit.com/utopian-io/@money-dreamer/steem-curation-bot
