@@ -23,7 +23,7 @@ function processTag(tag='') {
 		  		if( data.allow_votes === true && data.allow_curation_rewards === true && data.author_reputation > 300000000000 ) {
 		  			let already_voted = false;
 		  			for (var j = data.active_votes.length - 1; j >= 0; j--)
-						if( data.active_votes[j].voter == 'money-dreamer' ) {
+						if( data.active_votes[j].voter == config.steem.username ) {
 							already_voted = true;
 							continue;
 						}
